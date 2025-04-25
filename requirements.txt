@@ -1,0 +1,5 @@
+numpy>=1.19.2
+pandas>=1.2.0
+matplotlib>=3.3.0
+tensorflow>=2.4.0
+deque-tools>=0.1.0
