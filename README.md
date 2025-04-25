@@ -25,7 +25,7 @@ The agent interacts with a custom environment simulating user equipment (UE) mov
 
 ---
 
-## 🚀 Getting Started
+## Project Setup
 
 ### 1. Install Dependencies
 
