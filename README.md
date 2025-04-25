@@ -1,9 +1,9 @@
 
-# 📡 Handover Optimization in 5G Networks Using Deep Q-Learning
+# Handover Optimization in 5G Networks Using Deep Q-Learning
 
-🧾 **Course:** CS462 - 5G Communication and Network Laboratory  
-👨‍🏫 **Faculty:** Dr. Bhupendra Kumar  
-🧑‍🏫 **Teaching Assistants:** Shivam Solanki & Abhinav Jain
+**Course:** CS462 - 5G Communication and Network Laboratory  
+**Faculty:** Dr. Bhupendra Kumar  
+**Teaching Assistants:** Shivam Solanki & Abhinav Jain
 
 ---
 
@@ -13,6 +13,18 @@ In 5G networks, efficient handover management is crucial for maintaining seamles
 This project leverages **reinforcement learning**, specifically **Deep Q-Learning (DQL)**, to enable adaptive and intelligent handover decisions.
 
 The agent interacts with a custom environment simulating user equipment (UE) movement and network conditions. Through training, the agent learns optimal policies to decide when and where to perform handovers, reducing ping-pong effects and improving overall network efficiency.
+
+---
+
+
+## Presentation Video
+
+You can watch our project presentation video [here](https://www.youtube.com/watch?v=mxbdsCFHodU). Below are the key timestamps:
+
+- **00:00** - Introduction
+- **05:56** - Environment Setup
+- **14:10** - Algorithm Explained
+- **32:07** - Conclusion with Results
 
 ---
 
@@ -32,7 +44,7 @@ The agent interacts with a custom environment simulating user equipment (UE) mov
 Make sure you have Python 3.8+ installed. Install required packages using:
 
 ```bash
-pip install -r Project/requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 2. Run the Project
@@ -57,7 +69,7 @@ You can modify hyperparameters and environment settings in `main.py` as needed.
 ---
 
 
-## 🙋‍♂️ Contributors
+## Contributors
 
 - **Harshit Agrawal (202251053)**
 - **Malaika Varshney (202251069)**

@@ -46,8 +46,7 @@ def train_rl_agent(env, agent, episodes=100):
         
         rewards_history.append(total_reward)
         
-        if episode % 10 == 0:
-            print(f"Episode: {episode}, Total Reward: {total_reward:.2f}, Epsilon: {agent.epsilon:.4f}")
+        print(f"Episode: {episode}, Total Reward: {total_reward:.2f}, Epsilon: {agent.epsilon:.4f}")
     
     return rewards_history
 
@@ -86,8 +85,7 @@ def traditional_handover(env, episodes=100):
         
         rewards_history.append(total_reward)
         
-        if episode % 10 == 0:
-            print(f"Traditional Episode: {episode}, Total Reward: {total_reward:.2f}")
+        print(f"Traditional Episode: {episode}, Total Reward: {total_reward:.2f}")
     
     return rewards_history
 
