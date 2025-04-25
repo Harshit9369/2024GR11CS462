@@ -40,7 +40,7 @@ pip install -r Project/requirements.txt
 To start training the agent:
 
 ```bash
-python Project/main.py
+python main.py
 ```
 
 You can modify hyperparameters and environment settings in `main.py` as needed.
